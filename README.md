@@ -3,7 +3,6 @@
 ```
 conda create -n tsi python=3.9
 conda activate tsi
-<!-- 这是一个注释git clone git clone https://github.com/252820/Tourism-Model.git -->
 git clone https://github.com/anonymous-user.git
 cd tsi
 pip install -r requirements.txt
