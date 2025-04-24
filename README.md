@@ -1,7 +1,7 @@
 # TSI
 ## 1.Environment Preparation
 ```
-conda create -n tsi python=3.9
+conda create -n tsi python=3.10
 conda activate tsi
 git clone https://github.com/anonymous-user.git
 cd tsi
