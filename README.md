@@ -10,3 +10,6 @@ pip install -r requirements.txt
 
 ## 2.Preparing Pre-trained Checkpoints
 Run the dnn-best-save.py to get pre-trained checkpoint for TSI.
+
+## 3.Warning
+Synthetic data may overrepresent certain sarcasm patterns and should be handled with caution in real-world deployments.
