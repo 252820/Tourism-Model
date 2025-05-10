@@ -1,4 +1,4 @@
-'''BKSAT的训练过程'''
+'''TSI的训练过程'''
 import torch
 import torch.nn as nn
 import torch.optim as optim

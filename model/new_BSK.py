@@ -1,4 +1,4 @@
-'''BKSAT-T的模型结构'''
+'''TSI-T的模型结构'''
 import torch
 import torch.nn as nn
 from transformers import BertModel

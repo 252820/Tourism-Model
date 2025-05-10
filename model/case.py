@@ -62,7 +62,7 @@ def text_to_tensor(text, tokenizer, keyword_list, p, max_len=320):
     return input_ids, attention_mask, mask
 
 
-'''BKSAT的case study'''
+'''TSI的case study'''
 
 # Main setup and data loading
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -80,7 +80,10 @@ texts = ["I can't rate it below than that.",
          "which airport provide hot snacks only after 0600 Hrs .. I always believed and told my friend you can not go wrong with ITC .. now I am forced to change that believe !!", 
          "Pathetic waiting management. Also they are not as perfect as sarwana bhawan.",
         "Hopeless service!!!  Hopeless service!  It was amazing till it was Biryani Paradise. ",
-        "You can have better food in other place will never again go to this place again."]
+        "You can have better food in other place will never again go to this place again.",
+        "The staff is so friendly and there is a wide variety of treats for vegan and gluten free customers.",
+        "I tried the red velvet & vanilla sprinkles. They both were delicious but I prefer the vanilla. The employees were really polite."
+        ]
 
 # Predict class for each sentence
 for text in texts:
